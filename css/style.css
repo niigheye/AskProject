@@ -44,6 +44,7 @@
   position: relative;
   width: 250px;
   height: 25px;
+  right:225px;
 }
 
 .box .ri-copyright-line {
@@ -73,7 +74,7 @@
   width: 163px;
   height: 20px;
   top: 42px;
-  left: 30px;
+  left: 155px;
 }
 
 .box .body {
