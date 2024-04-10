@@ -1,0 +1,998 @@
+@import url("https://fonts.googleapis.com/css?family=Hammersmith+One:400|Hanuman:400");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+.box {
+  position: relative;
+  width: 1500px;
+  height: 1236px;
+}
+
+.box .project {
+  /*position: fixed;*/
+  width: 1500px;
+  height: 1236px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.box .footer {
+  position: absolute;
+  width: 1500px;
+  height: 100px;
+  top: 1136px;
+  left: 0;
+  background-color: transparent;
+}
+
+.box .overlap {
+  position: relative;
+  width: 1830px;
+  height: 100px;
+  background-color: #e9e9e9;
+}
+
+.box .copyrights {
+  position: absolute;
+  width: 252px;
+  height: 25px;
+  top: 40px;
+  left: 1560px;
+}
+
+.box .overlap-group {
+  position: relative;
+  width: 250px;
+  height: 25px;
+}
+
+.box .ri-copyright-line {
+  position: absolute;
+  width: 24px;
+  height: 25px;
+  top: 0;
+  left: 0;
+}
+
+.box .text-wrapper {
+  position: absolute;
+  width: 226px;
+  top: 0;
+  left: 24px;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  color: #a2a2a2;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .ask-pupkin {
+  position: absolute;
+  width: 163px;
+  height: 20px;
+  top: 42px;
+  left: 30px;
+}
+
+.box .body {
+  position: absolute;
+  width: 1500px;
+  height: 865px;
+  top: 184px;
+  left: 36px;
+}
+
+.box .questions {
+  position: absolute;
+  width: 725px;
+  height: 797px;
+  top: 0;
+  left: 125px;
+}
+
+.box .question-block {
+  top: 592px;
+  position: absolute;
+  width: 733px;
+  height: 205px;
+  left: 0;
+}
+
+.box .div {
+  position: relative;
+  width: 900px;
+  height: 205px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.box .iconamoon-profile {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 21px;
+  left: 39px;
+}
+
+.box .overlap-2 {
+  position: absolute;
+  width: 546px;
+  height: 120px;
+  top: 72px;
+  left: 120px;
+}
+
+.box .text-wrapper-2 {
+  position: absolute;
+  width: 115px;
+  top: 78px;
+  left: 10px;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  color: #2779a7;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box.text-wrapper-2.bg-secondary{
+  position: relative;
+  width: 115px;
+  top: 200px;
+  left: 20px;
+  background-color: #2779a7;
+}
+
+.box .p {
+  position: absolute;
+  width: 700px;
+  top: 0px;
+  left: 10px;
+  font-family: "Hanuman", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-3 {
+  position: absolute;
+  width: 55px;
+  top: 78px;
+  left: 490px;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .text-wrapper-4 {
+  position: absolute;
+  width: 170px;
+  top: 78px;
+  left: 510px;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  color: #2779a7;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-4-1{
+  position: absolute;
+  width: 170px;
+  top: 78px;
+  left: 600px;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  color: #2779a7;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .text-wrapper-5 {
+  position: absolute;
+  width: 397px;
+  top: 25px;
+  left: 98px;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .level {
+  position: absolute;
+  width: 67px;
+  height: 50px;
+  top: 77px;
+  left: 39px;
+}
+
+.box .overlap-group-2 {
+  position: relative;
+  width: 65px;
+  height: 50px;
+}
+
+.box .rectangle {
+  width: 60px;
+  height: 50px;
+  top: 0;
+  position:relative;
+  background-color: #e9e9e9;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #a2a2a2;
+  position: absolute;
+  left: 0;
+}
+
+.box .arrow-1 {
+  top: -5px;
+  left: 40px;
+  font-size: 25px;
+  color:#a2a2a2;
+  position: absolute;
+  display: inline-block;
+  transform: rotate(90deg);
+  }
+
+.box .arrow-2{
+  top: 15px;
+  left: 40px;
+  font-size: 25px;
+  color:#a2a2a2;
+  position: absolute;
+  display: inline-block;
+  transform: rotate(90deg);
+}
+
+.box .line-border{
+  border: 1px solid;
+  border-color:#a2a2a2;
+  height:48px;
+  position: absolute;
+  left: 28px;
+  top:0px;
+}
+
+.box .vector {
+  position: absolute;
+  width: 2px;
+  height: 46px;
+  top: 2px;
+  left: 30px;
+}
+
+.box .text-wrapper-6 {
+  width: 17px;
+  top: 13px;
+  left: 8px;
+  font-family: "Hammersmith One", Helvetica;
+  color: #a2a2a2;
+  white-space: nowrap;
+  position: absolute;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .overlap-wrapper {
+  top: 342px;
+  position: absolute;
+  width: 733px;
+  height: 205px;
+  left: 0;
+}
+
+.box .overlap-group-wrapper {
+  top: 93px;
+  position: absolute;
+  width: 733px;
+  height: 205px;
+  left: 0;
+}
+
+.box .overlap-3 {
+  position: absolute;
+  width: 570px;
+  height: 63px;
+  top: 0;
+  left: 5px;
+}
+
+.box .text-wrapper-7 {
+  position: absolute;
+  width: 362px;
+  top: 0;
+  left: 0;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .hot-questions {
+  position: absolute;
+  width: 227px;
+  height: 38px;
+  top: 12px;
+  left: 343px;
+}
+
+.box .overlap-4 {
+  position: relative;
+  width: 225px;
+  height: 38px;
+}
+
+.box .rectangle-2 {
+  width: 225px;
+  height: 34px;
+  top: 0;
+  background-color: #e9e9e9;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+}
+
+.box .text-wrapper-8 {
+  position: absolute;
+  width: 136px;
+  top: 7px;
+  left: 45px;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .tags {
+  position: absolute;
+  width: 304px;
+  height: 268px;
+  top: 0;
+  left: 1290px;
+}
+
+.box .tag {
+  width: 105px;
+  top: 231px;
+  left: 0;
+  position: absolute;
+  height: 37px;
+}
+
+.box .div-wrapper {
+  position: relative;
+  width: 103px;
+  height: 37px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #a2a2a2;
+}
+
+.box .text-wrapper-9 {
+  position: absolute;
+  width: 86px;
+  top: 3px;
+  left: 6px;
+  font-family: "Hanuman", Helvetica;
+  font-weight: 400;
+  color: #2779a7;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .tag-2 {
+  width: 131px;
+  top: 183px;
+  left: 116px;
+  position: absolute;
+  height: 37px;
+}
+
+.box .overlap-5 {
+  position: relative;
+  width: 129px;
+  height: 37px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #a2a2a2;
+}
+
+.box .text-wrapper-10 {
+  position: absolute;
+  width: 111px;
+  top: 3px;
+  left: 7px;
+  font-family: "Hanuman", Helvetica;
+  font-weight: 400;
+  color: #2779a7;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .tag-3 {
+  width: 116px;
+  top: 185px;
+  left: 0;
+  position: absolute;
+  height: 37px;
+}
+
+.box .overlap-6 {
+  position: relative;
+  width: 114px;
+  height: 37px;
+}
+
+.box .rectangle-3 {
+  width: 107px;
+  height: 37px;
+  top: 0;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #a2a2a2;
+  position: absolute;
+  left: 0;
+}
+
+.box .text-wrapper-11 {
+  position: absolute;
+  width: 100px;
+  top: 3px;
+  left: 3px;
+  font-family: "Hanuman", Helvetica;
+  font-weight: 400;
+  color: #2779a7;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .overlap-7 {
+  position: absolute;
+  width: 304px;
+  height: 38px;
+  top: 139px;
+  left: 0;
+}
+
+.box .tag-4 {
+  width: 127px;
+  top: 1px;
+  left: 177px;
+  position: absolute;
+  height: 37px;
+}
+
+.box .overlap-8 {
+  position: relative;
+  width: 125px;
+  height: 37px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #a2a2a2;
+}
+
+.box .text-wrapper-12 {
+  position: absolute;
+  width: 100px;
+  top: 3px;
+  left: 10px;
+  font-family: "Hanuman", Helvetica;
+  font-weight: 400;
+  color: #2779a7;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .tag-5 {
+  width: 222px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 37px;
+}
+
+.box .overlap-9 {
+  position: relative;
+  width: 220px;
+  height: 37px;
+}
+
+.box .rectangle-4 {
+  position: absolute;
+  width: 169px;
+  height: 37px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #a2a2a2;
+}
+
+.box .text-wrapper-13 {
+  position: absolute;
+  width: 208px;
+  top: 3px;
+  left: -20px;
+  font-family: "Hanuman", Helvetica;
+  font-weight: 400;
+  color: #2779a7;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .tag-6 {
+  width: 106px;
+  top: 93px;
+  left: 78px;
+  position: absolute;
+  height: 37px;
+}
+
+.box .overlap-10 {
+  position: relative;
+  width: 104px;
+  height: 37px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #a2a2a2;
+}
+
+.box .text-wrapper-14 {
+  position: absolute;
+  width: 87px;
+  top: 0px;
+  left:5px;
+  font-family: "Hanuman", Helvetica;
+  font-weight: 400;
+  color: #2779a7;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .tag-7 {
+  width: 113px;
+  top: 93px;
+  left: 191px;
+  position: absolute;
+  height: 37px;
+}
+
+.box .overlap-11 {
+  position: relative;
+  width: 111px;
+  height: 37px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #a2a2a2;
+}
+
+.box .text-wrapper-15 {
+  position: absolute;
+  width: 88px;
+  top: 3px;
+  left: 11px;
+  font-family: "Hanuman", Helvetica;
+  font-weight: 400;
+  color: #2779a7;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .tag-8 {
+  width: 71px;
+  top: 93px;
+  left: 0;
+  position: absolute;
+  height: 37px;
+}
+
+.box .overlap-12 {
+  position: relative;
+  width: 69px;
+  height: 37px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  border: 2px solid;
+  border-color: #a2a2a2;
+}
+
+.box .text-wrapper-16 {
+  width: 49px;
+  top: 1px;
+  left: 7px;
+  font-family: "Hanuman", Helvetica;
+  color: #2779a7;
+  position: absolute;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .text-wrapper-17 {
+  position: absolute;
+  width: 268px;
+  top: 0;
+  left: 8px;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 45px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .best-members {
+  position: absolute;
+  width: 302px;
+  height: 453px;
+  top: 344px;
+  left: 1290px;
+}
+
+.box .best-member {
+  top: 74px;
+  left: 6px;
+  position: absolute;
+  width: 265px;
+  height: 55px;
+}
+
+
+.box .text-wrapper-18 {
+  position: absolute;
+  width: 152px;
+  top: 15px;
+  left: 67px;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  color: #a2a2a2;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .overlap-group-3 {
+  width: 260px;
+  height:56px;
+  background-color:#e9e9e9;
+  border-radius: 25px;
+  top: 15px;
+  left: 67px;
+}
+.box .img {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 7px;
+  left: 18px;
+}
+
+.box .best-member-2 {
+  top: 155px;
+  left: 6px;
+  position: absolute;
+  width: 265px;
+  height: 55px;
+}
+
+.box .best-member-3 {
+  top: 236px;
+  left: 6px;
+  position: absolute;
+  width: 265px;
+  height: 55px;
+}
+
+.box .best-member-4 {
+  top: 317px;
+  left: 3px;
+  position: absolute;
+  width: 265px;
+  height: 55px;
+}
+
+.box .q-victoria {
+  position: absolute;
+  width: 184px;
+  top: 15px;
+  left: 67px;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  color: #a2a2a2;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .best-member-5 {
+  top: 398px;
+  left: 6px;
+  position: absolute;
+  width: 265px;
+  height: 55px;
+}
+
+.box .text-wrapper-19 {
+  width: 300px;
+  top: 0;
+  left: 0;
+  color: #000000;
+  font-size: 45px;
+  position: absolute;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.box .pages {
+  position: absolute;
+  width: 325px;
+  height: 43px;
+  top: 822px;
+  left: 125px;
+  
+}
+
+
+.box .page-link {
+  font-family: "Hammersmith One", Helvetica;
+  color: #000000;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  background-color: #e9e9e9;
+  border-color: #ffffff;
+  border-radius: 5px;
+}
+
+.box .header-left{
+  left: 70px;
+  position:absolute;
+}
+
+.box .header {
+  position: absolute;
+  width: 1135px;
+  height: 94px;
+  top: 45px;
+  left: 27px;
+  background-color: transparent;
+}
+
+.box .account {
+  position: absolute;
+  width: 371px;
+  height: 55px;
+  top: 0;
+  left: 1310px;
+}
+
+.box .overlap-group-5 {
+  position: absolute;
+  width: 219px;
+  height: 58px;
+  top: 0;
+  left: 0;
+  border:3px solid;
+  border-radius: 15px;
+  border-color:#000000;
+}
+
+.box .text-wrapper-25 {
+  color: #2779a7;
+  position: absolute;
+  width: 152px;
+  top: -26px;
+  left: 54px;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .dropdown .img{
+  top: -33px;
+}
+
+
+.box .dropdown-menu li a{
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  border: 1px solid;
+  border-color:#e9e9e9;
+  font-size: 20px;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+
+.box .dropdown1-menu li a{
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  border: 1px solid;
+  border-color:#e9e9e9;
+  font-size: 20px;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.box .dropdown .btn-link{
+  position:absolute;
+  top:40px;
+}
+
+.box .dropdown1 .btn-link{
+  position:absolute;
+  top:40px;
+  left:210px;
+}
+
+.box .dropdown1 .mdi-settings{
+  left: 115px;
+  top: -35px;
+}
+.box .mdi-settings {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 7px;
+  left: 327px;
+}
+
+.box .text-wrapper-26 {
+  position: absolute;
+  width: 78px;
+  top: 15px;
+  left: 235px;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  color: #a2a2a2;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .ask-button {
+  position: absolute;
+  width: 93px;
+  height: 40px;
+  top: 7px;
+  left: 625px;
+}
+
+
+
+.box .btn-dark {
+  background-color: #000000;
+  width:91px;
+  border-radius: 10px;
+  height: 40px;
+  left: 20px;
+  font-family: "Hammersmith One", Helvetica;
+  color: #ffffff;
+  position: absolute;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.box .search-bar {
+  position: absolute;
+  width: 322px;
+  height: 40px;
+  top: 7px;
+  left: 297px;
+}
+
+.box .overlap-16 {
+  position: relative;
+  width: 320px;
+  height: 40px;
+  background-color:  #e9e9e9;
+  border-radius: 25px;
+}
+.box .form-control {
+  left:40px;
+  position: relative;
+  width: 280px;
+  height: 40px;
+  background-color: #e9e9e9;
+  border-radius: 25px;
+  border-color: #e9e9e9;
+}
+
+.box .place-holder{
+  position: absolute;
+  width: 112px;
+  top: 10px;
+  left: 60px;
+  font-family: "Hammersmith One", Helvetica;
+  font-weight: 400;
+  color: #a2a2a2;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  
+}
+
+.box .vector-2 {
+  position: absolute;
+  width: 19px;
+  height: 20px;
+  top: 10px;
+  left: 15px;
+}
+
+.box .ask-pupkin-2 {
+  position: absolute;
+  width: 261px;
+  height: 32px;
+  top: 15px;
+  left: 1px;
+}
+
+.box .border {
+  position: absolute;
+  width: 1790px;
+  border: 2 px solid;
+  border-color: #a2a2a2;
+  top: 89px;
+  left: 0px;
+}
+
